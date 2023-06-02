@@ -18,6 +18,14 @@ rssLimit = 100
 enableGitInfo = false
 googleAnalytics = ""
 
+
+#config/config.toml
+​
+baseURL = "https://blog.calvinhaynes.top/" #未设置阿里云托管之前应该是 "https://joey.github.io"
+title = "Calvin Haynes's Blog"
+theme = "zzo"
+
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
